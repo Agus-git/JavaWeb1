@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de ingreso de datos</title>
+    <!-- El siguiente es un Bootstrap, que es un framework que crea interfaces web.-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+</head>
+<body>
+    <!--Titulo-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand">Guardador De Objetos</a>
+    </nav>
+    <!-- Cuerpo -->
+    <var class="container">
+        <var class="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Producto</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="productForm">
+                            <!--"form-group"Separa los imputs para que no esten pegados-->
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Ingrese el nombre" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" step="0.1" id="price" placeholder="Ingrese el precio" class="form-control">
+                            </div>
+                            <!--submit actualiza la pag-->
+                            <button type="submit" class="btn btn-primary btn-block">Guardador</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="TurnoDelCodigo" class="col-md-8">
+                
+            </div>
+        </var>
+    </var>
+    <script src="app.js"></script>
+    <!--
+        version vieja
+    <div>
+        <fieldset>
+          <label class="control-label" for="disabledInput">Object</label>
+          <input class="form-control" id="InputObject" type="text" placeholder="Here you will wright an object..." disabled="" style="width: 30%;">
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+          <label class="control-label" for="disabledInput">Description</label>
+          <input class="form-control" id="InputObject" type="text" placeholder="Here you will wright any description of the object..." disabled="" style="width: 30%;">
+        </fieldset>
+    </div>
+    -->
+</body>
+</html>
